@@ -183,19 +183,12 @@ const FeatureShowcase = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-zinc-400">
             Why Choose Us
           </h1>
           <p className="text-zinc-400 text-lg mb-8">
-Beyond our powerful features, here are a few more reasons coaches love choosing SmartCoach360          </p>
-          <div className="flex items-center justify-center gap-4">
-            <button className="px-6 py-2.5 bg-zinc-800 hover:bg-zinc-700 rounded-lg text-white font-medium transition-colors border border-zinc-700">
-             Contact Us
-            </button>
-            <button className="px-6 py-2.5 bg-zinc-800 hover:bg-zinc-700 rounded-lg text-white font-medium transition-colors flex items-center gap-2 border border-zinc-700">
-              Book a Demo
-            </button>
-          </div>
+<span className="text-white font-normal">Beyond our powerful features</span>, here are a few more <br/>reasons coaches love choosing SmartCoach360          </p>
+       
         </div>
 
         {/* Feature Grid */}
@@ -234,8 +227,10 @@ Beyond our powerful features, here are a few more reasons coaches love choosing 
                  
                 </div>
               </div>
+              
             );
           })}
+          
         </div>
 
         

@@ -385,6 +385,25 @@ const FeatureSection = () => {
 
                   
                 </svg>
+                
+              </div>
+               <div className="flex items-center gap-3 mt-4">
+                <div className="flex items-center gap-1.5 group/badge">
+                  <div className="w-4 h-4 rounded-full bg-zinc-800 border border-zinc-700 group-hover/badge:border-purple-500/50 flex items-center justify-center transition-all duration-300 group-hover/badge:scale-110">
+                    <svg className="w-2.5 h-2.5 text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300" viewBox="0 0 24 24" fill="currentColor">
+                      <circle cx="12" cy="12" r="8" />
+                    </svg>
+                  </div>
+                  <span className="text-xs text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300">Reports</span>
+                </div>
+                <div className="flex items-center gap-1.5 group/badge">
+                  <div className="w-4 h-4 rounded-full bg-zinc-800 border border-zinc-700 group-hover/badge:border-purple-500/50 flex items-center justify-center transition-all duration-300 group-hover/badge:scale-110">
+                    <svg className="w-2.5 h-2.5 text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                  </div>
+                  <span className="text-xs text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300">Insights</span>
+                </div>
               </div>
             </div>
           </div>
@@ -432,25 +451,7 @@ const FeatureSection = () => {
                 </svg>
               </div>
               
-              {/* Data providers */}
-              <div className="flex items-center gap-3 mt-4">
-                <div className="flex items-center gap-1.5 group/badge">
-                  <div className="w-4 h-4 rounded-full bg-zinc-800 border border-zinc-700 group-hover/badge:border-purple-500/50 flex items-center justify-center transition-all duration-300 group-hover/badge:scale-110">
-                    <svg className="w-2.5 h-2.5 text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300" viewBox="0 0 24 24" fill="currentColor">
-                      <circle cx="12" cy="12" r="8" />
-                    </svg>
-                  </div>
-                  <span className="text-xs text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300">Reports</span>
-                </div>
-                <div className="flex items-center gap-1.5 group/badge">
-                  <div className="w-4 h-4 rounded-full bg-zinc-800 border border-zinc-700 group-hover/badge:border-purple-500/50 flex items-center justify-center transition-all duration-300 group-hover/badge:scale-110">
-                    <svg className="w-2.5 h-2.5 text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                    </svg>
-                  </div>
-                  <span className="text-xs text-zinc-500 group-hover/badge:text-purple-400 transition-colors duration-300">Insights</span>
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -475,7 +476,7 @@ const FeatureSection = () => {
                   { name: 'Email', path: '/send/email' },
                   { name: 'SMS', path: '/send/sms' },
                   { name: 'In-App', path: '/send/notification' },
-                  { name: 'Slack', path: '/send/slack' },
+                 {name:"In-App Call",path:'/call'}
                 ].map((endpoint, index) => (
                   <div 
                     key={endpoint.name} 

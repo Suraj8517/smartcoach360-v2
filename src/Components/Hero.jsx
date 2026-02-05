@@ -13,7 +13,7 @@ const Hero = () => {
                        text-4xl sm:text-5xl md:text-5xl lg:text-7xl mt-3">
           The flexible way to manage
           <br />
-          <span className="text-purple-700">
+          <span className="text-purple-500">
             your coaching business
           </span>
         </h1>
@@ -34,17 +34,17 @@ const Hero = () => {
 
           <button
             className="px-6 py-1 rounded-lg font-medium text-white/90
-                       bg-purple-700 hover:bg-purple-600 transition"
+                       bg-purple-600 hover:bg-purple-800 transition"
           >
            Contact Us
           </button>
 
           <button
-            className="px-6 py-2 rounded-lg font-medium text-white/90
+            className="px-6 py-1 rounded-lg font-medium text-white/90
                        bg-white/10 border border-white/10
                        hover:bg-white/15 transition"
           >
-            Request a demo
+            Book a Demo
           </button>
         </div>
 
