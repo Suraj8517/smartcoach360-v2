@@ -328,8 +328,8 @@ export default function ImageShowcase() {
               </div>
 
               {/* Main content area */}
-              <div className="bg-[#1a1a1a] p-3">
-                <div className="relative bg-[#1a1a1a] rounded-lg overflow-hidden border border-gray-800">
+              <div className="bg-[#1d1d1d] p-3">
+                <div className="relative bg-[#302f2f] rounded-lg overflow-hidden border border-gray-800">
                   <div className="absolute inset-0 z-10 pointer-events-none"></div>
                   
                   <img

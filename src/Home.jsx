@@ -4,6 +4,7 @@ import FeatureSection from './Components/FeatureSection';
 import IntegrationSection from './Components/Integration';
 import FeatureShowcase from './Components/FeatureShowCase';
 import ImageShowcase from './Components/ImageShowcase';
+import MobileSection from './Components/MobileSection';
 const Home = ()=>{
     return(
         <div className='min-h-screen bg-[#121212]'>
@@ -11,8 +12,9 @@ const Home = ()=>{
         <Hero/>
         <FeatureSection/>
         <IntegrationSection/>
+          <ImageShowcase/>
         <FeatureShowcase/>
-        <ImageShowcase/>
+        <MobileSection/>
         </div>
     )
 }

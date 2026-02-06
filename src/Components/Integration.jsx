@@ -52,22 +52,22 @@ const FrameworkSection = () => {
   ];
 
   return (
-    <section className="bg-[#121212] py-20 md:py-10">
+    <section className="bg-[#121212] py-20 md:py-20">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-col items-center justify-between gap-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-1">
           
-          <div className="flex-1">
++ <div className="md:basis-[45%] flex-shrink-0">
             <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-zinc-400">
               Seamless integrations with
             </h2>
-            <h3 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white mt-2 min-h-[1.2em] transition-all duration-300 text-center">
+            <h3 className="text-3xl md:text-3xl lg:text-4xl font-bold text-white mt-2 min-h-[1.2em] transition-all duration-300 text-start">
               {activeFramework}
             </h3>
           </div>
 
           
-          <div className="flex-1 flex items-center justify-center md:justify-center">
-            <div className="grid grid-cols-5 sm:grid-cols-9 gap-2 md:gap-3 lg:gap-4">
+          <div className="flex-1 flex items-start justify-start md:justify-start">
+            <div className="grid grid-cols-5 sm:grid-cols-9 gap-2 md:gap-3 lg:gap-2">
               {frameworks.map((framework, index) => (
                 <div
                   key={framework.name}
