@@ -200,12 +200,12 @@ const FeatureShowcase = () => {
                 key={index}
                 className="group relative bg-[#171717] rounded-2xl border border-zinc-500/30 hover:border-zinc-500/60 hover:shadow-[0_0_30px_-5px_rgba(168,85,247,0.15)] transition-all duration-500 overflow-hidden"
               >
-                {/* Gradient overlay on hover */}
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            
+                <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/5 via-transparent to-transparent opacity-1 group-hover:opacity-100 transition-opacity duration-500" />
 
 
                 {/* Icon Section */}
-                <div className="p-6 border-b border-zinc-800">
+                <div className="p-6 border-b border-zinc-800 bg-zinc-800/50">
                   <FeaturePreview preview={feature.preview} icon={Icon} />
                 </div>
 

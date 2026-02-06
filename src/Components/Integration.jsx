@@ -56,7 +56,6 @@ const FrameworkSection = () => {
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-col items-center justify-between gap-12">
           
-          {/* Left side - Text */}
           <div className="flex-1">
             <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-zinc-400">
               Seamless integrations with
@@ -66,7 +65,7 @@ const FrameworkSection = () => {
             </h3>
           </div>
 
-          {/* Right side - Framework Icons */}
+          
           <div className="flex-1 flex items-center justify-center md:justify-center">
             <div className="grid grid-cols-5 sm:grid-cols-9 gap-2 md:gap-3 lg:gap-4">
               {frameworks.map((framework, index) => (
@@ -80,6 +79,7 @@ const FrameworkSection = () => {
                     transitionDelay: `${index * 30}ms`
                   }}
                 >
+                    
                  <img
   src={framework.icon}
   alt={framework.name}

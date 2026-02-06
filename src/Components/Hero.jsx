@@ -2,7 +2,7 @@ import LogoCarousel from "./LogoCarousel";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-linear-to-b from-black to-[#121212] pt-10">
+    <section className="relative overflow-hidden bg-[#121212] pt-10">
       {/* subtle background gradient */}
       <div className="absolute inset-0" />
 

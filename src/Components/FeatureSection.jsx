@@ -2,7 +2,7 @@ import {User,UserCheck,CalendarCheck,CreditCard,TrendingUp,Workflow,PhoneOutgoin
 const FeatureSection = () => {
   return (
     <section className="bg-[#121212] py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-4 md:px-6">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 xl:max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           
   
@@ -289,7 +289,6 @@ const FeatureSection = () => {
                 Track, analyze, and showcase <span className="text-white/70 md:group-hover:text-purple-200 transition-colors duration-300">client fitness progress </span>with clear, data-driven performance insights.
               </p>
               
-              {/* Growth chart animation */}
               <div className="relative h-32 flex items-center justify-center">
                 <svg viewBox="0 0 120 120" className="w-full h-full opacity-50 md:opacity-30 md:group-hover:opacity-50 transition-opacity duration-500">
                   <defs>
@@ -303,10 +302,8 @@ const FeatureSection = () => {
                     </linearGradient>
                   </defs>
 
-                  {/* Glow effect */}
                   <circle cx="60" cy="65" r="32" fill="url(#progressGlow)" className="opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-700" />
 
-                  {/* Grid lines (wireframe) */}
                   <g className="text-zinc-800">
                     <line x1="30" y1="90" x2="90" y2="90" stroke="currentColor" strokeWidth="0.5" />
                     <line x1="30" y1="70" x2="90" y2="70" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2,2" />
@@ -314,7 +311,6 @@ const FeatureSection = () => {
                     <line x1="30" y1="30" x2="90" y2="30" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2,2" />
                   </g>
 
-                  {/* Animated growth bars */}
                   <g className="text-purple-400 md:text-zinc-700 md:group-hover:text-purple-400 transition-colors duration-500">
                     <rect 
                       x="38" 
@@ -377,7 +373,6 @@ const FeatureSection = () => {
                     className="text-purple-500 animate-[dash_2s_ease-in-out_forwards] md:animate-none md:group-hover:animate-[dash_2s_ease-in-out_forwards]"
                   />
 
-                  {/* Data points */}
                   <circle cx="42" cy="86" r="2" className="fill-purple-500 animate-pulse" />
                   <circle cx="56" cy="75" r="2" className="fill-purple-500 md:opacity-0 md:group-hover:opacity-100 animate-pulse transition-opacity duration-500" style={{ animationDelay: '100ms' }} />
                   <circle cx="70" cy="60" r="2" className="fill-purple-500 md:opacity-0 md:group-hover:opacity-100 animate-pulse transition-opacity duration-500" style={{ animationDelay: '200ms' }} />
@@ -425,7 +420,6 @@ const FeatureSection = () => {
               Automate<span className="text-white/70 group-hover:text-purple-200 transition-colors duration-300"> repetitive operational tasks</span> so your team can focus more on clients and growth. 
               </p>
               
-              {/* 3D cube with vectors */}
               <div className="relative h-32 flex items-center justify-center">
                 <svg viewBox="0 0 120 120" className="w-full h-full opacity-30 group-hover:opacity-50 transition-opacity duration-500">
                   {/* 3D Cube with rotation */}
@@ -439,7 +433,6 @@ const FeatureSection = () => {
                       <line x1="35" y1="75" x2="45" y2="85" stroke="currentColor" strokeWidth="0.5" />
                     </g>
                   </g>
-                  {/* Vector points with sequential pulse */}
                   <circle cx="50" cy="50" r="2" fill="currentColor" className="text-purple-500 group-hover:animate-ping" />
                   <circle cx="50" cy="50" r="2" fill="currentColor" className="text-purple-500" />
                   <circle cx="70" cy="55" r="1.5" fill="currentColor" className="text-purple-600 group-hover:animate-pulse transition-colors duration-500" style={{ animationDelay: "200ms" }} />
@@ -473,10 +466,10 @@ const FeatureSection = () => {
               
               <div className="space-y-2 opacity-50 group-hover:opacity-70 transition-opacity duration-500">
                 {[
-                  { name: 'Email', path: '/send/email' },
                   { name: 'SMS', path: '/send/sms' },
                   { name: 'In-App', path: '/send/notification' },
-                 {name:"In-App Call",path:'/call'}
+                 {name:"In-App Call",path:'/call'},
+                   {name:"Live Sessions",path:'/Live'},
                 ].map((endpoint, index) => (
                   <div 
                     key={endpoint.name} 
