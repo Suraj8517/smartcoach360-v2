@@ -5,6 +5,8 @@ import IntegrationSection from './Components/Integration';
 import FeatureShowcase from './Components/FeatureShowCase';
 import ImageShowcase from './Components/ImageShowcase';
 import MobileSection from './Components/MobileSection';
+import TestimonialCarousel from './Components/Testimonials';
+import ForWhomSection from './Components/ForWhom';
 const Home = ()=>{
     return(
         <div className='min-h-screen bg-[#121212]'>
@@ -15,6 +17,9 @@ const Home = ()=>{
           <ImageShowcase/>
         <FeatureShowcase/>
         <MobileSection/>
+        <ForWhomSection/>
+        <TestimonialCarousel/>
+
         </div>
     )
 }
