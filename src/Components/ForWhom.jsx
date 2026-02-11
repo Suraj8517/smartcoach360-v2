@@ -33,11 +33,9 @@ const ForWhomSection = () => {
               Designed For Fitness & Wellness Professionals
             </p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tighter">
-              Trusted for medical records, missions to the moon, and everything in between
-            </h1>
-            <p className="text-zinc-400 text-md mb-8 leading-relaxed">
-              Keep your data secure with SOC 2, HIPAA, and GDPR compliance. Your customers' data is encrypted at rest and in transit, with built-in tools for monitoring and managing security threats.
-            </p>
+Designed for wellness professionals, coaches, and modern fitness teams.</h1>     
+       <p className="text-zinc-400 text-md mb-8 leading-relaxed">
+             SmartCoach360 is designed to support health and wellness professionals who want to streamline their practice, engage clients more effectively, and grow their business with ease.</p>
             <a 
               href="#" 
               className="inline-flex items-center text-white hover:text-purple-400 transition-colors duration-300 group"
