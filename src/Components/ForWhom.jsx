@@ -33,7 +33,7 @@ const ForWhomSection = () => {
               Who Is SmartCoach360 For?
             </p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tighter">
-Designed for wellness professionals, coaches, and modern fitness teams.</h1>     
+ <span className="text-zinc-400 ">Designed for </span>wellness professionals, coaches, and modern fitness teams.</h1>     
        <p className="text-zinc-400 text-md mb-8 leading-relaxed">
              SmartCoach360 is designed to support health and wellness professionals who want to streamline their practice, engage clients more effectively, and grow their business with ease.</p>
             <a 
