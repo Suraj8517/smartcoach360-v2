@@ -30,7 +30,7 @@ const ForWhomSection = () => {
           {/* Left Content */}
           <div>
             <p className="text-purple-500 text-sm uppercase tracking-wider mb-4">
-              Designed For Fitness & Wellness Professionals
+              Who Is SmartCoach360 For?
             </p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tighter">
 Designed for wellness professionals, coaches, and modern fitness teams.</h1>     
