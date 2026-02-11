@@ -117,7 +117,7 @@ const TestimonialSection = () => {
                         </div>
 
                         {/* Testimonial Text */}
-                        <p className="text-zinc-400 text-sm mb-6 leading-relaxed group-hover:text-zinc-300 transition-colors duration-300 min-h-[100px]">
+                        <p className="text-zinc-400 text-sm mb-6 leading-relaxed group-hover:text-zinc-300 transition-colors duration-300 min-h-[100px] font-['Source_Code_Pro',monospace]">
                           "{testimonial.content}"
                         </p>
 

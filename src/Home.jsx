@@ -7,6 +7,9 @@ import ImageShowcase from './Components/ImageShowcase';
 import MobileSection from './Components/MobileSection';
 import TestimonialCarousel from './Components/Testimonials';
 import ForWhomSection from './Components/ForWhom';
+import Footer from './Components/Footer';
+import FAQSection from './Components/FAQSection';
+
 const Home = ()=>{
     return(
         <div className='min-h-screen bg-[#121212]'>
@@ -19,6 +22,8 @@ const Home = ()=>{
         <MobileSection/>
         <ForWhomSection/>
         <TestimonialCarousel/>
+        <FAQSection/>
+        <Footer/>
 
         </div>
     )

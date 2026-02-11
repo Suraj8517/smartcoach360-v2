@@ -64,7 +64,7 @@ const LogoCarousel = () => {
 
           {/* Text */}
           <div className="mb-4 sm:mb-6 md:mb-4">
-            <p className="text-center text-xs sm:text-sm md:text-base 2xl:text-lg text-white/50 font-medium tracking-wider">
+            <p className="text-center text-xs sm:text-sm md:text-base 2xl:text-lg text-white/50 font-medium tracking-wider font-['Source_Code_Pro',monospace]">
               Trusted by leading companies
             </p>
           </div>

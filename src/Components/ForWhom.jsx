@@ -29,7 +29,7 @@ const ForWhomSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div>
-            <p className="text-purple-500 text-sm uppercase tracking-wider mb-4">
+            <p className="text-purple-500 text-sm uppercase tracking-wider mb-4 font-['Source_Code_Pro',monospace]">
               Who Is SmartCoach360 For?
             </p>
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tighter">
