@@ -9,6 +9,7 @@ import TestimonialCarousel from './Components/Testimonials';
 import ForWhomSection from './Components/ForWhom';
 import Footer from './Components/Footer';
 import FAQSection from './Components/FAQSection';
+import CTASection from './Components/CTASection';
 
 const Home = ()=>{
     return(
@@ -22,6 +23,7 @@ const Home = ()=>{
         <MobileSection/>
         <ForWhomSection/>
         <TestimonialCarousel/>
+        <CTASection/>
         <FAQSection/>
         <Footer/>
 

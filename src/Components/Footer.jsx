@@ -2,22 +2,19 @@ import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 
 const socialLinks = [
-  { name: 'Facebook', icon: Facebook, href: '#' },
-  { name: 'Twitter', icon: Twitter, href: '#' },
-  { name: 'Instagram', icon: Instagram, href: '#' },
-  { name: 'LinkedIn', icon: Linkedin, href: '#' },
-  { name: 'YouTube', icon: Youtube, href: '#' }
+  { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/smartcoach360' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/smartcoach360/' },
 ];
 
 const Footer = () => {
   return (
     <footer className="bg-[#121212] text-white border-t border-zinc-800">
-      <div className="max-w-7xl mx-auto px-4 py-16">
+      <div className="max-w-5xl mx-auto px-4 py-16">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12 ">
           {/* Brand Section */}
           <div>
-            <h2 className="text-3xl font-bold mb-4">SmartCoach360</h2>
+            <h2 className="text-3xl font-bold mb-4">SmartCoach<span className="text-purple-500 font-semibold">360</span></h2>
             <p className="text-zinc-400 text-base mb-8 leading-relaxed max-w-md">
               Empowering wellness professionals with tools to streamline practice, engage clients, and grow their business with ease.
             </p>
@@ -40,6 +37,55 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Quick Links */}
+          <div className='mx-auto'>
+            <h3 className="text-lg font-semibold mb-6 ">Quick Links</h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="#features" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="#app-features" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  App Features
+                </a>
+              </li>
+              <li>
+                <a href="#success-stories" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  Success Stories
+                </a>
+              </li>
+              <li>
+                <a href="#for-whom" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  For Whom
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Resources</h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="#faqs" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  FAQs
+                </a>
+              </li>
+              <li>
+                <a href="#book-demo" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  Book a Demo
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-zinc-400 hover:text-white transition-colors duration-300">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-6">Get in Touch</h3>
@@ -48,8 +94,8 @@ const Footer = () => {
                 <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-zinc-900 border border-zinc-800 group-hover:border-purple-500 transition-colors duration-300">
                   <Mail className="w-5 h-5 text-purple-500 group-hover:text-purple-400 transition-colors duration-300" />
                 </div>
-                <a href="mailto:hello@smartcoach360.com" className="hover:text-white transition-colors duration-300">
-                  hello@smartcoach360.com
+                <a href="mailto:sales@smartcoach360.ai" className="hover:text-white transition-colors duration-300">
+                  sales@smartcoach360.ai
                 </a>
               </div>
               
@@ -67,7 +113,7 @@ const Footer = () => {
                   <MapPin className="w-5 h-5 text-purple-500 group-hover:text-purple-400 transition-colors duration-300" />
                 </div>
                 <span className="hover:text-white transition-colors duration-300 pt-2">
-                  123 Wellness Street<br/>San Francisco, CA 94102
+                  No 9/14, Bharathi Street,<br/> Vellakinar, Coimbatore,<br/> Tamil Nadu, 641029
                 </span>
               </div>
             </div>
